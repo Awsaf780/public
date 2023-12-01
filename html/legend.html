@@ -1,0 +1,107 @@
+<html>
+  <head>
+    <script src="https://code.highcharts.com/stock/highstock.js"></script>
+    <script src="https://code.highcharts.com/modules/data.js"></script>
+
+    <link rel="stylesheet" href="https://app.everviz.com/static/fonts/gordita/style.css" />
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="chart-container"></div>
+    <script>
+      let options = {
+        colors: ['#FF495E', '#28277E', '#6D5BD1', '#F9DCE7', '#AEC8FA', '#DDD8F5'],
+        chart: {
+          style: {
+            fontFamily: 'gordita',
+            fontSize: '1.4296962130048707rem'
+          },
+          type: 'line',
+          width: 1080,
+          height: 1350
+        },
+        legend: {
+          verticalAlign: 'top'
+        },
+        series: [
+          {
+            data: [],
+            turboThreshold: 0,
+            type: 'line'
+          },
+          {
+            data: [],
+            turboThreshold: 0,
+            type: 'line'
+          },
+          {
+            data: [],
+            turboThreshold: 0,
+            type: 'line'
+          },
+          {
+            data: [],
+            turboThreshold: 0
+          }
+        ],
+        data: {
+          csv: '"Year";"Actual";"New Momentum";"Accelerated";"Net Zero"\n2000;26.8;;;\n2001;27.2;;;\n2002;27.8;;;\n2003;29.2;;;\n2004;30.7;;;\n2005;32;;;\n2006;33;;;\n2007;34.2;;;\n2008;34.6;;;\n2009;34.2;;;\n2010;35.8;;;\n2011;37;;;\n2012;37.5;;;\n2013;38.1;;;\n2014;38.3;;;\n2015;38.3;;;\n2016;38.5;;;\n2017;38.9;;;\n2018;39.7;;;\n2019;39.8;39.8;39.8;39.5\n2025;;38;36;34.6\n2030;;37.8;32.4;27.5\n2035;;35.7;26.6;19.7\n2040;;33.4;20.7;12.5\n2045;;31.2;14.4;6.2\n2050;;28.7;9.1;2',
+          seriesMapping: [
+            {
+              x: 0,
+              y: 1,
+              year: 0,
+              actual: 1,
+              new_momentum: 2,
+              accelerated: 3,
+              net_zero: 4
+            },
+            {
+              x: 0,
+              y: 2,
+              year: 0,
+              actual: 1,
+              new_momentum: 2,
+              accelerated: 3,
+              net_zero: 4
+            },
+            {
+              x: 0,
+              y: 3,
+              year: 0,
+              actual: 1,
+              new_momentum: 2,
+              accelerated: 3,
+              net_zero: 4
+            },
+            {
+              x: 0,
+              y: 4,
+              year: 0,
+              actual: 1,
+              new_momentum: 2,
+              accelerated: 3,
+              net_zero: 4
+            }
+          ]
+        }
+      };
+
+      //Video
+
+      const chart = Highcharts['chart']('chart-container', options);
+
+      // setTimeout(() => {
+      //   chart.setSize(1080, 1350, true);
+      // }, 0);
+      
+    </script>
+  </body>
+</html>
