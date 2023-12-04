@@ -1,0 +1,40 @@
+@font-face {
+font-family: 'Gordita';
+font-weight: 100;
+font-display: swap;
+src: url('https://app-everviz-dev.s3.eu-west-1.amazonaws.com/static/fonts/gordita/Gordita-Thin.woff2');
+}
+
+@font-face {
+font-family: 'Gordita';
+font-weight: 300;
+font-display: swap;
+src: url('https://app-everviz-dev.s3.eu-west-1.amazonaws.com/static/fonts/gordita/Gordita-Light.woff2');
+}
+
+@font-face {
+font-family: 'Gordita';
+font-weight: 400;
+font-display: swap;
+src: url('https://app-everviz-dev.s3.eu-west-1.amazonaws.com/static/fonts/gordita/Gordita-Regular.woff2');
+}
+
+@font-face {
+font-family: 'Gordita';
+font-weight: 500;
+font-display: swap;
+src: url('https://app-everviz-dev.s3.eu-west-1.amazonaws.com/static/fonts/gordita/Gordita-Medium.woff2');
+}
+
+@font-face {
+font-family: 'Gordita';
+font-weight: 700;
+font-display: swap;
+src: url('https://app-everviz-dev.s3.eu-west-1.amazonaws.com/static/fonts/gordita/Gordita-Bold.woff2');
+}
+
+@font-face {
+font-family: 'Gordita Bold';
+font-display: swap;
+src: url('https://app-everviz-dev.s3.eu-west-1.amazonaws.com/static/fonts/gordita/Gordita-Bold.woff2');
+}
